@@ -17,8 +17,8 @@
 
     <section class="gradient-bg text-white min-h-[60vh] flex items-center justify-center px-6 py-20">
         <div class="max-w-4xl text-center">
-            <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-pulse">Soluções Técnicas em Instalações</h1>
-            <p class="text-xl text-gray-300 mb-8 font-light">Elétrica, Hidráulica e Projetos de Segurança para sua residência ou condomínio.</p>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-pulse">Projetos, Instalações e Manutenção</h1>
+            <p class="text-xl text-gray-300 mb-8 font-light">Projetos de Engenharia, Vistorias, Instalações Elétricas, Hidráulicas e Acompanhamento de obras.</p>
             <div class="flex flex-wrap justify-center gap-4">
                 <a href="https://wa.me/5562999999999" class="bg-green-500 hover:bg-green-600 px-8 py-4 rounded-full font-bold flex items-center gap-2 transition-all">
                     <i class="fab fa-whatsapp"></i> Orçamento Rápido
@@ -33,17 +33,22 @@
             <div class="glass-card p-8 border border-gray-100 rounded-2xl">
                 <div class="text-blue-600 text-4xl mb-4"><i class="fas fa-bolt"></i></div>
                 <h3 class="text-xl font-bold mb-2">Instalações Elétricas</h3>
-                <p class="text-gray-600">Troca de quadros, fiação, instalação de chuveiros e automação residencial.</p>
+                <p class="text-gray-600">Serviços elétricos, CFTV, alarmes e manutenção em geral.</p>
             </div>
             <div class="glass-card p-8 border border-gray-100 rounded-2xl">
                 <div class="text-blue-600 text-4xl mb-4"><i class="fas fa-droplet"></i></div>
-                <h3 class="text-xl font-bold mb-2">Manutenção Hidráulica</h3>
-                <p class="text-gray-600">Reparos em geral, instalação de louças e metais com precisão técnica.</p>
+                <h3 class="text-xl font-bold mb-2">Instalações Hidráulicas</h3>
+                <p class="text-gray-600">Reparos em geral, instalações com precisão técnica.</p>
             </div>
             <div class="glass-card p-8 border border-gray-100 rounded-2xl">
                 <div class="text-blue-600 text-4xl mb-4"><i class="fas fa-shield-halved"></i></div>
                 <h3 class="text-xl font-bold mb-2">Segurança & Projetos</h3>
-                <p class="text-gray-600">Projetos de segurança do trabalho e instalações de alarmes e CFTV.</p>
+                <p class="text-gray-600">Projetos de Engenharia, Projetos de Incêndio e Segurança do Trabalho</p>
+            </div>
+            <div class="glass-card p-8 border border-gray-100 rounded-2xl">
+                <div class="text-blue-600 text-4xl mb-4"><i class="fas fa-droplet"></i></div>
+                <h3 class="text-xl font-bold mb-2">Vistoria predial e acompanhamento de obras</h3>
+                <p class="text-gray-600">Acompanhamento de obras e cronograma, vistorias e consultoria predial</p>
             </div>
         </div>
     </section>
