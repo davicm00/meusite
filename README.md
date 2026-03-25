@@ -1,49 +1,74 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serviços Técnicos de Engenharia e Manutenção</title>
+    <title>Instalações & Projetos Técnicos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4; text-align: center; }
-        header { background: #003366; color: white; padding: 2rem 1rem; }
-        .container { max-width: 600px; margin: 2rem auto; padding: 1rem; background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        h1 { margin-bottom: 0.5rem; }
-        p { color: #555; }
-        .btn { display: block; width: 80%; margin: 1rem auto; padding: 15px; text-decoration: none; color: white; border-radius: 50px; font-weight: bold; transition: 0.3s; }
-        .btn-whatsapp { background-color: #25d366; }
-        .btn-instagram { background-color: #e4405f; }
-        .btn-email { background-color: #444; }
-        .btn:hover { opacity: 0.8; transform: scale(1.02); }
-        .services { text-align: left; padding: 1rem; border-top: 1px solid #eee; margin-top: 1rem; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .glass-card { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); transition: all 0.3s ease; }
+        .glass-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
     </style>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-900">
 
-<header>
-    <h1>Serviços Técnicos de Engenharia e Manutenção</h1>
-    <p>Projetos, Instalações Elétricas, Hidráulicas, Manutenção</p>
-</header>
+    <section class="gradient-bg text-white min-h-[60vh] flex items-center justify-center px-6 py-20">
+        <div class="max-w-4xl text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-pulse">Soluções Técnicas em Instalações</h1>
+            <p class="text-xl text-gray-300 mb-8 font-light">Elétrica, Hidráulica e Projetos de Segurança para sua residência ou condomínio.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://wa.me/5562999999999" class="bg-green-500 hover:bg-green-600 px-8 py-4 rounded-full font-bold flex items-center gap-2 transition-all">
+                    <i class="fab fa-whatsapp"></i> Orçamento Rápido
+                </a>
+            </div>
+        </div>
+    </section>
 
-<div class="container">
-    <p>Atendimento especializado com foco em segurança e economia.</p>
-    
-    <a href="https://wa.me/5562999999999" class="btn btn-whatsapp" target="_blank">Solicitar Orçamento via WhatsApp</a>
-    <a href="https://instagram.com/seuusuario" class="btn btn-instagram" target="_blank">Siga no Instagram</a>
-    <a href="mailto:contato@seuemail.com" class="btn btn-email">Enviar E-mail</a>
+    <section class="max-w-6xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold text-center mb-12">Nossas Especialidades</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="glass-card p-8 border border-gray-100 rounded-2xl">
+                <div class="text-blue-600 text-4xl mb-4"><i class="fas fa-bolt"></i></div>
+                <h3 class="text-xl font-bold mb-2">Instalações Elétricas</h3>
+                <p class="text-gray-600">Troca de quadros, fiação, instalação de chuveiros e automação residencial.</p>
+            </div>
+            <div class="glass-card p-8 border border-gray-100 rounded-2xl">
+                <div class="text-blue-600 text-4xl mb-4"><i class="fas fa-droplet"></i></div>
+                <h3 class="text-xl font-bold mb-2">Manutenção Hidráulica</h3>
+                <p class="text-gray-600">Reparos em geral, instalação de louças e metais com precisão técnica.</p>
+            </div>
+            <div class="glass-card p-8 border border-gray-100 rounded-2xl">
+                <div class="text-blue-600 text-4xl mb-4"><i class="fas fa-shield-halved"></i></div>
+                <h3 class="text-xl font-bold mb-2">Segurança & Projetos</h3>
+                <p class="text-gray-600">Projetos de segurança do trabalho e instalações de alarmes e CFTV.</p>
+            </div>
+        </div>
+    </section>
 
-    <div class="services">
-        <h3>Nossos Serviços:</h3>
-        <ul>
-            <li>Projetos de engenharia</li>
-            <li>Consultoria em segurança do trabalho</li>
-            <li>Execução e manutenção de instalações elétricas</li>
-            <li>Execução e manutenção de nstalações hidráulicas</li>
-            <li>Manutenção predial em geral</li>
-            <li>Instalação de alarmes e câmeras</li>
-            <li>equipe de engenheiros para acompanhamento</li>
-        </ul>
-    </div>
-</div>
+    <section class="bg-white py-16 border-t border-gray-100">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <h2 class="text-2xl font-bold mb-8">Conecte-se Conosco</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <a href="https://instagram.com/seuusuario" class="flex items-center justify-center gap-3 p-4 border border-pink-200 rounded-xl text-pink-600 hover:bg-pink-50 transition-colors">
+                    <i class="fab fa-instagram text-2xl"></i> @seuusuario
+                </a>
+                <a href="mailto:contato@seuemail.com" class="flex items-center justify-center gap-3 p-4 border border-gray-200 rounded-xl text-gray-700 hover:bg-gray-50 transition-colors">
+                    <i class="far fa-envelope text-2xl"></i> E-mail Direto
+                </a>
+                <a href="tel:5562999999999" class="flex items-center justify-center gap-3 p-4 border border-blue-200 rounded-xl text-blue-600 hover:bg-blue-50 transition-colors">
+                    <i class="fas fa-phone text-2xl"></i> Ligar Agora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-400 text-sm">
+        <p>© 2026 - Serviços de Engenharia e Manutenção. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>
